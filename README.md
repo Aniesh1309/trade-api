@@ -52,7 +52,7 @@ The API recurssively filters the trade list with all the optional query paramete
 
 Used django to implement Paginator.
 ```http
-  GET /search
+  GET /trades/paginate
 ```
 
 | Parameter | Type     | Description                       |
@@ -65,5 +65,5 @@ Used django to implement Paginator.
 
 Used sorted function to sort the trade list based on `tradeId`
 ```http
-  GET /sort
+  GET /trades/sort
 ```
