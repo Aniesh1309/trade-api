@@ -11,7 +11,7 @@ Returns all the trade items available.
 Returns specific trade item based on key provided.
 
 ```http
-  GET /trades/${trade_id}
+  GET /trade/${trade_id}
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
